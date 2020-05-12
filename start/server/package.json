@@ -1,15 +1,15 @@
 {
   "name": "fullstack-tutorial-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Apollo GraphQL Tutorial",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "start": "nodemon src/index.js",
     "start:ci": "node src/index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yousef M Ahmad",
+  "license": "MIT",
   "dependencies": {
     "apollo-datasource": "^0.1.3",
     "apollo-datasource-rest": "^0.1.5",
@@ -33,5 +33,13 @@
       "/node_modules/",
       "/__utils"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yousefmahmad/Apollo-Tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yousefmahmad/Apollo-Tutorial/issues"
+  },
+  "homepage": "https://github.com/yousefmahmad/Apollo-Tutorial#readme"
 }
