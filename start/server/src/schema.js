@@ -36,7 +36,7 @@ type Query {
     """
     The number of results to show. Must be >= 1. Default = 20
     """
-    pageSize: int
+    pageSize: Int
     """
     If you add a cursor here, it will only return results _after_ this cursor
     """
